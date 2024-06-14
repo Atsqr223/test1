@@ -1,12 +1,13 @@
 git init
 git add .  # Add all files in the current directory
 git commit -m "Initial commit"
+git remote add origin 
+
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
 import math as m
 from mpl_toolkits.mplot3d import Axes3D
-git remote add origin 
 
 
 def draw_plate(ax):
